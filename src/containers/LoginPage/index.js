@@ -34,7 +34,6 @@ class LoginPage extends Component {
   render() {
     return (
       <form className="form-signin" onSubmit={this.handleSubmit}>
-        <img className="mb-4" src="/docs/4.2/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72" />
         <h1 className="h3 mb-3 font-weight-normal">Please sign in</h1>
         <label for="inputUsername" className="sr-only">Username</label>
         <input
@@ -60,7 +59,6 @@ class LoginPage extends Component {
           onChange={this.handleChange}
         />
         <button className="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <p className="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
       </form>
     );
   }
